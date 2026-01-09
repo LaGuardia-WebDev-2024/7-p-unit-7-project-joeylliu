@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 body {
-  background-color: rgb(37, 150, 190);
+  background-color: rgb(54, 59, 54);
   text-align: center;
   color: rgb(224, 244, 247);
 }
 
 #myCanvas {
-  background-image: url("https://img.freepik.com/premium-photo/park-cartoon-image-background-copy-space_1169880-286389.jpg?semt=ais_hybrid&w=740&q=80");
+  background-image: url("https://i.namu.wiki/i/DE7C8gxIkQc9aWOfWLFh6y2LcfYDb4QBZ7eUP-R8WE85IZrrDDeCZAzftH8VC-RwDxkOx11cQ_O7RVbWbPkKWg.webp");
   background-size: 600px 400px;
   border-radius: 10px;
   background-position: center;

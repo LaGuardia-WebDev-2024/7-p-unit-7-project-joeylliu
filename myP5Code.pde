@@ -10,8 +10,15 @@ void setup() {
 draw = function(){
  
   background(255,255,255,0);
-  
+  //person
+  fill(255,255,255);
+    ellipse(300,200,35,35);
+    rect(284,215,32,42);
+    line(285,223,265,214);
 
+    //curtains
+    fill(204,0,0);
+    rect(-4,164,200,200);
 
 
 
