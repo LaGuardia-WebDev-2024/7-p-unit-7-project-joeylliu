@@ -4,23 +4,35 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var rightX= 0;
+var personRadius= 40;
+var persontorsow = 32;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
   background(255,255,255,0);
-  //person
+  //person - head
   fill(255,255,255);
-    ellipse(300,200,35,35);
-    rect(284,215,32,42);
+    ellipse(300,200,personRadius,personRadius);
+
+  //person - torso
+    rect(284,215,persontorsow,42);
+
+  //person - arm
     line(285,223,265,214);
 
-    //curtains
+rightX = rightX + 1;
+
+
+    //left curtain
     fill(204,0,0);
-    rect(-4,164,200,200);
+    rect(rightX,150,200,200);
 
-
+if(rightX>120){
+  personRadius = personRadius - 1
+ persontorsow = 0
+}
 
 
   //Show x y values when mousepressed
